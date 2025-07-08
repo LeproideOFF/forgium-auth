@@ -23,25 +23,19 @@ Forgium Auth est un système d’authentification complet pour applications web,
 git clone https://github.com/LeproideOFF/forgium-auth.git
 Installer les dépendances
 
-bash
-Copier
-Modifier
+
 cd forgium-auth
 npm install
 Créer un fichier .env à la racine du projet avec les variables suivantes :
 
-env
-Copier
-Modifier
+
 DB_URI=ton_uri_mongodb_ou_autre
 JWT_SECRET=ta_clef_jwt_secrète
 EMAIL_USER=ton_email_pour_envoi
 EMAIL_PASS=ton_mot_de_passe_email
 Lancer le serveur
 
-bash
-Copier
-Modifier
+
 npm start
 Usage
 Endpoints principaux disponibles :
